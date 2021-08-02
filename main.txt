@@ -1,0 +1,21 @@
+----------------------------------------------------
+Replication files for Dynamic Factors Model (DFM) : 
+two-step based procedure based on Kalman filter
+Author : Ammouri Bilel
+E-mail : bilel.ammouri@gmail.com
+---------------------------------------------------- 
+
+Data:
+	1- We use Data's Stock and Watson (2016) are in the Excel file hom_fac_1.xlsx.
+	The lik of data : https://www.princeton.edu/~mwatson/publi.html
+	2- We do necessary preprocessing data,
+	3- We drop the Variables containes missing value
+
+
+Programs : Contain use programs
+
+Static_factors.m : Compute and determine the static factors by using PCA estimation
+
+Dynamic_factors.m : Compute and determine the dynamic facotrs by using Klman filter state space model
+
+ 
